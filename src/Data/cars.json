@@ -1,0 +1,141 @@
+[
+  {
+    "id": 1,
+    "name": "Audi RS3 Sportback",
+    "type": "Hatchback",
+    "location": "New York, USA",
+    "price": 19000,
+    "rentPerDay": 299,
+    "rent": 299,
+    "transmission": "Manual",
+    "fuel": "Diesel",
+    "seats": 5,
+    "mileage": 18500,
+    "speed": 250,
+    "image": "/src/assets/img1.png",
+    "images": [
+      "/src/assets/img1.png",
+      "/src/assets/img1.png",
+      "/src/assets/img1.png",
+      "/src/assets/img1.png"
+    ],
+    "description": "Compact hatchback built for efficient city driving, easy parking, and low running costs.",
+    "features": [
+      "Rear Camera",
+      "Apple CarPlay",
+      "Cruise Control",
+      "Parking Sensors",
+      "Keyless Entry",
+      "Sunroof"
+    ],
+    "seller": {
+      "name": "Aurora Motors",
+      "role": "Agency Office",
+      "image": "/src/assets/seller1.jpg"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Mercedes-Benz Sprinter 3500",
+    "type": "Van",
+    "location": "Chicago, USA",
+    "price": 22000,
+    "rentPerDay": 199,
+    "rent": 199,
+    "transmission": "Dual-clutch",
+    "fuel": "Petrol",
+    "seats": 3,
+    "mileage": 76000,
+    "speed": 180,
+    "image": "/src/assets/img2.png",
+    "images": [
+      "/src/assets/img2.png",
+      "/src/assets/img2.png",
+      "/src/assets/img2.png",
+      "/src/assets/img2.png"
+    ],
+    "description": "Utility cargo van designed for trades and deliveries. Large load area and durable interior.",
+    "features": [
+      "Bluetooth",
+      "Rear Camera",
+      "Parking Sensors",
+      "USB Charging",
+      "Cruise Control"
+    ],
+    "seller": {
+      "name": "City Vans",
+      "role": "Dealer",
+      "image": "/src/assets/seller2.jpg"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Lamborghini Urus",
+    "type": "SUV",
+    "location": "Los Angeles, USA",
+    "price": 29000,
+    "rentPerDay": 599,
+    "rent": 599,
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "seats": 5,
+    "mileage": 46000,
+    "speed": 305,
+    "image": "/src/assets/img3.png",
+    "images": [
+      "/src/assets/img3.png",
+      "/src/assets/img3.png",
+      "/src/assets/img3.png",
+      "/src/assets/img3.png"
+    ],
+    "description": "Luxury performance SUV combining supercar speed with everyday practicality.",
+    "features": [
+      "Panoramic Roof",
+      "Apple CarPlay",
+      "Leather Seats",
+      "Adaptive Cruise",
+      "360 Camera",
+      "Keyless Entry"
+    ],
+    "seller": {
+      "name": "Elite Motors",
+      "role": "Premium Dealer",
+      "image": "/src/assets/seller3.jpg"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Porsche 911 Carrera",
+    "type": "Coupe",
+    "location": "Miami, USA",
+    "price": 33000,
+    "rentPerDay": 299,
+    "rent": 299,
+    "transmission": "Manual",
+    "fuel": "Petrol",
+    "seats": 2,
+    "mileage": 12500,
+    "speed": 400,
+    "image": "/src/assets/img4.png",
+    "images": [
+      "/src/assets/img4.png",
+      "/src/assets/img4.png",
+      "/src/assets/img4.png",
+      "/src/assets/img4.png"
+    ],
+    "description": "Two-door sport coupe with sharp handling, responsive turbocharged engine and a driver-focused cockpit.",
+    "features": [
+      "Rear Camera",
+      "Apple CarPlay",
+      "Keyless Entry",
+      "Adaptive Cruise",
+      "Heated Seats",
+      "Sunroof"
+    ],
+    "seller": {
+      "name": "Aurora Motors",
+      "role": "Agency Office",
+      "image": "/src/assets/seller4.jpg"
+    }
+  }
+]

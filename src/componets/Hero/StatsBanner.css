@@ -1,0 +1,36 @@
+.stats-banner {
+  display: flex;
+  height:130px;
+  justify-content: space-around;
+  align-items: center;
+  background: #f9fafb;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.1);
+}
+
+.stats-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-align: left;
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+  color: #2563eb; /* blue accent */
+}
+
+.stats-item h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+}
+
+.stats-item p {
+  margin: 2px 0 0;
+  font-size: 14px;
+  color: #666;
+}

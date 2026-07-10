@@ -1,0 +1,18 @@
+.featured{
+    padding:80px;
+    margin-top:60px;
+}
+
+.featured h2{
+    text-align:center;
+    margin-bottom:40px;
+    color:black;
+    font-size:15px;
+}
+
+.car-grid{
+    display:flex;
+    margin-left:3px;
+    gap:20px;
+    flex-wrap:wrap;
+}

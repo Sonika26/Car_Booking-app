@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "year": 2021,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "330i xDrive Sedan",
+    "price": 26900,
+    "mileage": 49880,
+    "transmission": "Automatic",
+    "fuel": "Gasoline",
+    "location": "New York, NY",
+    "image": "./src/assets/image1.jpg"
+  },
+  {
+    "id": 2,
+    "year": 2020,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "trim": "C 300",
+    "price": 23800,
+    "mileage": 43080,
+    "transmission": "Automatic",
+    "fuel": "Gasoline",
+    "location": "Los Angeles, CA",
+    "image": "./src/assets/image2.jpg"
+  },
+  {
+    "id": 3,
+    "year": 2020,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "trim": "C 300",
+    "price": 23800,
+    "mileage": 43080,
+    "transmission": "Automatic",
+    "fuel": "Gasoline",
+    "location": "Los Angeles, CA",
+    "image": "./src/assets/image3.jpg"
+  },
+  {
+    "id": 4,
+    "year": 2021,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "330i xDrive Sedan",
+    "price": 26900,
+    "mileage": 49880,
+    "transmission": "Automatic",
+    "fuel": "Gasoline",
+    "location": "New York, NY",
+    "image": "./src/assets/image1.jpg"
+  },
+  {
+    "id": 5,
+    "year": 2021,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "330i xDrive Sedan",
+    "price": 26900,
+    "mileage": 49880,
+    "transmission": "Automatic",
+    "fuel": "Gasoline",
+    "location": "New York, NY",
+    "image": "./src/assets/image1.jpg"
+  },
+  {
+    "id": 6,
+    "year": 2021,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "330i xDrive Sedan",
+    "price": 26900,
+    "mileage": 49880,
+    "transmission": "Automatic",
+    "fuel": "Gasoline",
+    "location": "New York, NY",
+    "image": "./src/assets/image1.jpg"
+  }
+]

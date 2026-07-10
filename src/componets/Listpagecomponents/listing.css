@@ -1,0 +1,141 @@
+/* MAIN LAYOUT */
+.listing-container {
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 260px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.sidebar-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.filter-box {
+  margin-bottom: 25px;
+  padding: 10px 10px;
+}
+
+.filter-box h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.filter-box select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.filter-list {
+  list-style: none;
+  padding: 0;
+}
+
+.filter-list li {
+  padding: 8px 0;
+  cursor: pointer;
+  color: #2563eb;
+  font-weight: 500;
+}
+
+.filter-list li:hover {
+  text-decoration: underline;
+}
+
+/* CAR GRID */
+.cars-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 25px;
+}
+
+/* CAR CARD */
+.car-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.car-card:hover {
+  transform: translateY(-8px);
+}
+
+.car-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.car-info {
+  padding: 15px;
+}
+
+.car-type {
+  color: gray;
+  font-size: 14px;
+}
+
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.per-day {
+  color: #2563eb;
+  font-weight: 600;
+}
+
+.car-specs p {
+  font-size: 14px;
+  margin: 3px 0;
+}
+
+.car-desc {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.rent-btn {
+  margin-top: 15px;
+  width: 100%;
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.rent-btn:hover {
+  background: #1e4fc7;
+}
+.checkbox-item {
+  display: block;
+  margin: 6px 0;
+}
+.list-cars{
+    padding:20px 20px;
+}
