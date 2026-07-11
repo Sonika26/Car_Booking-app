@@ -3,9 +3,11 @@ import Sidebar from "./Sidebar";
 import Car from "./Car";
 import "./listing.css";
 import cars from "../../Data/cars.json";
+import { useNavigate } from "react-router-dom";
 
 
 const ListingPage = () => {
+   const navigate = useNavigate();
   const [filteredCars, setFilteredCars] = useState(cars);
 
   return (

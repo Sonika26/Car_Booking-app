@@ -11,7 +11,7 @@ const Navbar =() =>{
 
 
   return (
-    <nav className="navbar">
+    <nav className="navbar shadow-lg">
       <div className="logo">
         <img src={LogoImage} alt="logo" className="w-25  object-contain top-0 " />
       <span className="font-bold ">Rentroo</span>
@@ -35,13 +35,6 @@ const Navbar =() =>{
   : "hover:font-semibold"
 }>Listing</NavLink>
 
-<NavLink to="/blog"
-className={({ isActive }) =>
-isActive
-? "font-extrabold border-b-2 border-blue-500 pb-1"
-: "hover:font-semibold"
-}
->Blog</NavLink>
 <NavLink to="/contact"
 className={({ isActive }) =>
 isActive
@@ -77,7 +70,7 @@ className="h-5 w-6 ml-5 cursor-pointer"
 </div>
 <div className="login">
 <NavLink to="/login">Login</NavLink>
-<FaUser size={18} />
+  <FaUser size={18} />
 </div>
 </nav>
 );
