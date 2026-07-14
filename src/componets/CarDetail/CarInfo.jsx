@@ -20,13 +20,14 @@ const CarInfo = ({ car }) => {
         <span>💺 {car.seats}</span>
         <span>⛽ {car.fuel}</span>
         <span>🏎️ {car.speed}</span>
-      </div>
-
+        </div>
+        <div className="bg-white">
       <h3 className="font-bold text-xl">Car Details</h3>
       <p>{car.description}</p>
+      </div>
 
       <h3 className="font-bold">Features</h3>
-      <div className="features">
+      <div className="features bg-white">
         {car.features.map((item, i) => (
           <span key={i}>{item}</span>
         ))}
