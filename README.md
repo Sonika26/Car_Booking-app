@@ -6,7 +6,7 @@ Rentroo is a modern **Car Booking Web Application** built with **React** that en
 
 ## 📸 Preview
 
-![Rentroo Home](./screenshot/home.png)
+![Rentroo Home](./screenshot/home.png.png)
 
 ---
 
