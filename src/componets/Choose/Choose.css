@@ -1,16 +1,83 @@
-.choose-card{
-display:flex;
-position:static;
-flex-direction: column;
-gap:50px;
- width:100%;
- padding:10px 10px;
- margin-left:40px;
- margin-bottom:40px;
- 
+.choose-card {
+  width: 100%;
 }
-.review-card{
-    width:full;
-    margin-bottom:40px;
-    margin-left:3px;
+
+.feature-card {
+  background: #fff;
+  border-radius: 18px;
+  padding: 28px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+
+  display: flex;
+  flex-direction: column;
+
+  min-height: 240px;
+  width: 100%;
+
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.feature-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 12px;
+}
+
+.feature-card p {
+  color: #6b7280;
+  line-height: 1.8;
+  font-size: 15px;
+}
+
+/* Move only the first card slightly to the right */
+.first-card {
+  margin-left: 20px;
+}
+
+/* Remove the margin on smaller screens */
+@media (max-width: 1279px) {
+  .first-card {
+    margin-left: 0;
+  }
+}
+
+.review-card {
+  width: 100%;
+  padding: 80px 0;
+}
+
+.feature-grid {
+  display:grid ;
+  grid-template-columns: 1fr;
+  margin-left: 20px;
+
+  gap: 24px; /* gap-6 = 1.5rem = 24px */
+}
+
+/* Small screens (≥ 640px) */
+@media (min-width: 640px) {
+  .feature-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Large screens (≥ 1024px) */
+@media (min-width: 1024px) {
+  .feature-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Extra Large screens (≥ 1280px) */
+@media (min-width: 1280px) {
+  .feature-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
 }

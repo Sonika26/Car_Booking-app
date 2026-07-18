@@ -15,7 +15,9 @@
 /* Hover effect */
 .car-card:hover {
   transform: translateY(-8px);
+
 }
+
 
 /* Car image */
 .car-card img {

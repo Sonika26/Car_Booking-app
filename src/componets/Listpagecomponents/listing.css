@@ -139,3 +139,44 @@
 .list-cars{
     padding:20px 20px;
 }
+/* Pagination Wrapper - keeps buttons at bottom */
+.pagination-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Pagination Buttons Container */
+.pagination {
+  display: flex;
+  gap: 12px;
+}
+
+/* Individual Buttons */
+.page-btn {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: #1a1c29;
+  border: 1px solid #2d3042;
+  color: #ffffff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+/* Hover Effect */
+.page-btn:hover {
+  background: #2d3042;
+  transform: translateY(-2px);
+}
+
+/* Active Page Button */
+.page-btn.active {
+  background: #ffb703;
+  color: #000;
+  font-weight: 600;
+  border-color: #ffb703;
+  transform: translateY(-2px);
+}

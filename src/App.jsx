@@ -7,6 +7,7 @@ import Listing from "./pages/Listing"
 import {Routes ,Route} from "react-router-dom"
 import Navbar from "./componets/Navbar"
 import CarDetails from "./pages/CarDetail"
+import AdminPage from './pages/AdminPage'
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/contact" element={<Contact/>} />
         <Route path="/car/:id" element={<CarDetails/>} />
         <Route path="/my-bookings" element={<MyBooking/>} />
+        <Route path="/dashboard" element={<AdminPage/>} />
       </Routes>
     </div>
     

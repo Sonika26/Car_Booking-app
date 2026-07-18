@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink ,useNavigate } from "react-router-dom";
 import "../index.css";
 import { useState, useContext } from "react";
 import LogoImage from "../assets/logo.png";
@@ -6,11 +6,14 @@ import Searchicon from "../assets/search.svg";
 import { FaUser } from "react-icons/fa";
 import { AuthContext } from "../Context/AuthContext";
 import {FaCog, FaSignOutAlt, FaBook } from "react-icons/fa";
+import deafultAvatar from"../assets/default-avatar.png";
 
 const Navbar = () => {
   const [showsearch, setshowsearch] = useState(false);
   const {user , logout} = useContext(AuthContext);
   const[open ,setOpen] = useState(false); 
+  const navigate = useNavigate();
+
 
   return (
     <nav className="navbar shadow-lg">
@@ -87,9 +90,9 @@ const Navbar = () => {
       </div>
 
       {/* Search bar */}
-      <div className="search-bar flex items-center gap-5">
+      <div className="search-bar flex items-center gap-10">
         <div
-          className="flex items-center cursor-pointer"
+          className="flex items-center gap-5  cursor-pointer"
           onClick={() => setshowsearch(!showsearch)}
         >
           {showsearch && (
@@ -107,17 +110,18 @@ const Navbar = () => {
           />
         </div>
       </div>
-
-      <div className="login relative">
+ <div className="login-button relative bg-white ">
   {user ? (
-    <div className="relative">
+    <div className="relative w-30">
+      {/* Circular avatar only */}
       <img
-        src={user.photoURL || "/default-avatar.png"}
+        src={user.photoURL || deafultAvatar}
         alt="profile"
-        className="w-9 h-9 rounded-full cursor-pointer border border-gray-300"
+        className="w-12 h-12 rounded-full cursor-pointer border border-gray-300"
         onClick={() => setOpen(!open)}
       />
 
+      {/* Dropdown menu appears only when avatar is clicked */}
       {open && (
         <div
           className="absolute right-0 mt-2 w-[300px] h-[230px] bg-orange-100 shadow-lg rounded-lg  flex flex-col overflow-hidden text-sm z-50"
@@ -163,13 +167,16 @@ const Navbar = () => {
         
       )}
     </div>
+    
   ) : (
-    <NavLink to="/login" className="px-4 py-2 flex flex-row gap-2 rounded  text-white">
-      Login
-      <FaUser className="text-white py-2 px-4 " />
+    <div className="login">
+    <NavLink to="/login" className="px-4 py-2 flex gap-2 rounded text-white">
+      Login <FaUser />
     </NavLink>
+    </div>
+
   )}
-</div>
+  </div>
 
     </nav>
   );

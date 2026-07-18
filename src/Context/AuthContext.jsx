@@ -44,6 +44,29 @@ const login = async (email,password) => {
   console.log("Auth user");
   console.log(res.user);
 };
+
+//signup
+
+async function signUp(name, email, password) {
+  try {
+    // Step 1: Create account in Firebase Auth
+    const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+    const user = userCredential.user;
+
+    // Step 2: Save extra info in Firestore
+    await setDoc(doc(db, "users", user.uid), {
+      uid: user.uid,
+      name,
+      email,
+      createdAt: serverTimestamp()
+    });
+
+    console.log("User registered successfully!");
+  } catch (error) {
+    console.error("Error signing up:", error);
+  }
+}
+
 //logout
   const logout = async () => {
     await signOut(auth);

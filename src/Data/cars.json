@@ -137,5 +137,217 @@
       "role": "Agency Office",
       "image": "/src/assets/seller4.jpg"
     }
+  },
+  {
+  "id": 5,
+  "name": "BMW Convertible",
+  "type": "Convertible",
+  "location": "Miami, USA",
+  "price": 27000,
+  "rentPerDay": 349,
+  "rent": 349,
+  "transmission": "Automatic",
+  "fuel": "Petrol",
+  "seats": 2,
+  "mileage": 22000,
+  "speed": 250,
+  "image": "/src/assets/img5.png",
+  "images": [
+    "/src/assets/img5.png",
+    "/src/assets/img5.png",
+    "/src/assets/img5.png",
+    "/src/assets/img5.png"
+  ],
+  "description": "Sporty luxury convertible offering open‑top driving, sharp handling, and premium comfort.",
+  "features": [
+    "Rear Camera",
+    "Apple CarPlay",
+    "Leather Seats",
+    "Cruise Control",
+    "Parking Sensors",
+    "Keyless Entry"
+  ],
+  "seller": {
+    "name": "Elite Motors",
+    "role": "Premium Dealer",
+    "image": "/src/assets/seller5.jpg"
   }
+},
+{
+  "id": 6,
+  "name": "Ferrari Roma",
+  "type": "Coupe",
+  "location": "San Francisco, USA",
+  "price": 31000,
+  "rentPerDay": 499,
+  "rent": 499,
+  "transmission": "Automatic",
+  "fuel": "Petrol",
+  "seats": 2,
+  "mileage": 14000,
+  "speed": 320,
+  "image": "/src/assets/img6.png",
+  "images": [
+    "/src/assets/img6.png",
+    "/src/assets/img6.png",
+    "/src/assets/img6.png",
+    "/src/assets/img6.png"
+  ],
+  "description": "Elegant high‑performance grand tourer with a sleek aerodynamic profile and powerful V8 engine.",
+  "features": [
+    "Rear Camera",
+    "Apple CarPlay",
+    "Launch Control",
+    "Leather Seats",
+    "Adaptive Cruise",
+    "Keyless Entry"
+  ],
+  "seller": {
+    "name": "Elite Motors",
+    "role": "Premium Dealer",
+    "image": "/src/assets/seller6.jpg"
+  }
+},
+
+{
+  "id": 7,
+  "name": "Lamborghini Huracán Spyder",
+  "type": "Convertible",
+  "location": "Los Angeles, USA",
+  "price": 35000,
+  "rentPerDay": 699,
+  "rent": 699,
+  "transmission": "Automatic",
+  "fuel": "Petrol",
+  "seats": 2,
+  "mileage": 9800,
+  "speed": 325,
+  "image": "/src/assets/img7.png",
+  "images": [
+    "/src/assets/img7.png",
+    "/src/assets/img7.png",
+    "/src/assets/img7.png",
+    "/src/assets/img7.png"
+  ],
+  "description": "High‑performance Italian supercar with a V10 engine, aggressive aerodynamics, and an open‑top driving experience.",
+  "features": [
+    "Rear Camera",
+    "Apple CarPlay",
+    "Launch Control",
+    "Carbon Ceramic Brakes",
+    "Sport Exhaust",
+    "Keyless Entry"
+  ],
+  "seller": {
+    "name": "Elite Motors",
+    "role": "Premium Dealer",
+    "image": "/src/assets/seller5.jpg"
+  }
+},
+{
+  "id": 8,
+  "name": "Aston Martin Vantage",
+  "type": "Coupe",
+  "location": "Las Vegas, USA",
+  "price": 28000,
+  "rentPerDay": 459,
+  "rent": 459,
+  "transmission": "Automatic",
+  "fuel": "Petrol",
+  "seats": 2,
+  "mileage": 18000,
+  "speed": 310,
+  "image": "/src/assets/img8..png",
+  "images": [
+    "/src/assets/img8.png",
+    "/src/assets/img8..png",
+    "/src/assets/img8..png",
+    "/src/assets/img8..png"
+  ],
+  "description": "Modern luxury sports coupe with a sleek aerodynamic profile, sharp handling, and a powerful twin‑turbo engine.",
+  "features": [
+    "Rear Camera",
+    "Apple CarPlay",
+    "Launch Control",
+    "Leather Seats",
+    "Adaptive Cruise",
+    "Keyless Entry"
+  ],
+  "seller": {
+    "name": "Prime Auto Gallery",
+    "role": "Premium Dealer",
+    "image": "/src/assets/seller7.jpg"
+  }
+},
+{
+  "id": 9,
+  "name": "McLaren GT",
+  "type": "Coupe",
+  "location": "Seattle, USA",
+  "price": 30000,
+  "rentPerDay": 479,
+  "rent": 479,
+  "transmission": "Automatic",
+  "fuel": "Petrol",
+  "seats": 2,
+  "mileage": 21000,
+  "speed": 320,
+  "image": "/src/assets/img9.png",
+  "images": [
+    "/src/assets/img9.png",
+    "/src/assets/img9.png",
+    "/src/assets/img9.png",
+    "/src/assets/img9.png"
+  ],
+  "description": "Luxury grand‑touring supercar with a lightweight design, smooth aerodynamics, and powerful twin‑turbo performance.",
+  "features": [
+    "Rear Camera",
+    "Apple CarPlay",
+    "Launch Control",
+    "Leather Seats",
+    "Adaptive Cruise",
+    "Keyless Entry"
+  ],
+  "seller": {
+    "name": "Prime Auto Gallery",
+    "role": "Premium Dealer",
+    "image": "/src/assets/seller8.jpg"
+  }
+},
+{
+  "id": 10,
+  "name": "Nissan GT‑R Nismo",
+  "type": "Coupe",
+  "location": "Houston, USA",
+  "price": 26000,
+  "rentPerDay": 429,
+  "rent": 429,
+  "transmission": "Automatic",
+  "fuel": "Petrol",
+  "seats": 2,
+  "mileage": 35000,
+  "speed": 330,
+  "image": "/src/assets/img10.png",
+  "images": [
+    "/src/assets/img10.png",
+    "/src/assets/img10.png",
+    "/src/assets/img10.png",
+    "/src/assets/img10.png"
+  ],
+  "description": "High‑performance Japanese supercar featuring aggressive aerodynamics, precision handling, and a twin‑turbo V6 engine.",
+  "features": [
+    "Rear Camera",
+    "Apple CarPlay",
+    "Launch Control",
+    "Carbon Ceramic Brakes",
+    "Sport Exhaust",
+    "Keyless Entry"
+  ],
+  "seller": {
+    "name": "Velocity Auto Hub",
+    "role": "Performance Dealer",
+    "image": "/src/assets/seller9.jpg"
+  }
+}
+
 ]

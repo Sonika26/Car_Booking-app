@@ -59,7 +59,7 @@
     width:90px;
     height:40px;
     gap:10px;
-    background:var(--color-black);
+    background-color: #111827;
     color:white;
     padding:10px 10px;
     border-radius:20px;
